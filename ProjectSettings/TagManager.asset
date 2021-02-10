@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
   - Exit
@@ -44,12 +45,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Foreground
-    uniqueID: 2679256765
+  - name: Ground
+    uniqueID: 1037168261
     locked: 0
   - name: Player
     uniqueID: 38144077
     locked: 0
-  - name: Ground
-    uniqueID: 1037168261
+  - name: Foreground
+    uniqueID: 2679256765
     locked: 0
